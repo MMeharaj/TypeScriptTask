@@ -1,0 +1,98 @@
+/* table */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .Add-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th, .table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .edit-button, .del-button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .edit-button {
+    background-color: #ffc107;
+  }
+  
+  .del-button {
+    background-color: #dc3545;
+  }
+  
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container label {
+    margin-bottom: 5px;
+  }
+  
+  .form-container input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .form-container {
+      max-width: 300px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    .form-container {
+      max-width: 250px;
+    }
+  }
+  
